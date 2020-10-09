@@ -1,6 +1,7 @@
 alias test='clear; python3 -m unittest tests/test_main.py'
 alias ls='ls --color=auto'
 alias cls='clear; ls'
+alias cla='clear; ls -la1'
 alias py='python3'
 alias run='clear;py'
 alias ..='cd ..'
@@ -19,6 +20,6 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 alias ll='ls -l'
-alias la='ls -A'
+alias la='ls -1a'
 alias l='ls -CF'
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/bin:/goinfre/yzwane/.linuxbrew/Homebrew/bin/"
